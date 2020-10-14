@@ -10,8 +10,8 @@
 	<description>This project is used to demonstrate Spring Batch's ability to execute full steps remotely via partitioning</description>
 	<properties>
 		<spring.framework.version>3.0.5.RELEASE</spring.framework.version>
-		<spring.batch.version>2.1.7.RELEASE</spring.batch.version>
-		<spring.batch-integration.version>1.2.0.RELEASE</spring.batch-integration.version>
+		<spring.batch.version>3.0.0.RELEASE</spring.batch.version>
+		<spring.batch-integration.version>3.0.0.RELEASE</spring.batch-integration.version>
 		<spring.integration.version>2.0.3.RELEASE</spring.integration.version>
 		<dependency.locations.enabled>false</dependency.locations.enabled>
 	</properties>
@@ -131,7 +131,7 @@
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
-			<version>4.1</version>
+			<version>4.2</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-dbcp</groupId>
