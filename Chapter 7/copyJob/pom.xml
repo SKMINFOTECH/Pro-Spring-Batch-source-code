@@ -14,8 +14,8 @@
 		CommandLineJobRunner directly or with "java -jar launch-context.xml job1".</description>
 	<properties>
 		<maven.test.failure.ignore>true</maven.test.failure.ignore>
-		<spring.framework.version>3.0.5.RELEASE</spring.framework.version>
-		<spring.batch.version>2.1.2.RELEASE</spring.batch.version>
+		<spring.framework.version>3.2.9.RELEASE</spring.framework.version>
+		<spring.batch.version>2.2.7.RELEASE</spring.batch.version>
 		<dependency.locations.enabled>false</dependency.locations.enabled>
 	</properties>
 	<profiles>
@@ -153,13 +153,13 @@
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
-			<version>3.3.0.SP1</version>
+			<version>4.1.1.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
 			<optional>true</optional>
-			<version>3.3.2.GA</version>
+			<version>3.4.0.GA</version>
 		</dependency>
 		<dependency>
 			<groupId>org.hibernate</groupId>
